@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+ 
+#floating-panel input[type=text]{
+    height:25px;
+}
+
+#login input[type=text]{
+    width: 400px;
+    height: 35px;
+    border-radius: 3%;
+    border: 0;
+    padding: 0;
+}
+
+#login input[type=password]{
+    width: 400px;
+    height: 35px;
+    border-radius: 3%;
+    border: 0;
+    padding: 0;
+}
+
+.background{
+    position: fixed;
+    background-image: url("assets/student living.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 40%;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    display: inline;
+    background-color: #FBFFCC;
+    padding: 4%;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+#buttons{
+    width: 200px;
+    position: fixed;
+    top: 66%;
+    left: 58.75%;
+}
+
+#buttons p{
+    display: inline-block;
+
+}
+
+#logo{
+    float:left;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 200px;
+    top: 0;
+    right: 410px;
+}
+
+#logotext{
+    position: fixed;
+    top: 110px;
+    right: 425px;
+    color:white;
+}
+#loginHeader{
+    position: relative;
+    top: 130px;
+    color: white;
+}
+
+#inputForm{
+    font-style: italic;
+    color: white;
+    padding: 0;
+    position:relative;
+    top: 23%;
+    left: 10%;
+
+}
+
+#inputForm p{
+    margin-bottom: 3px;
+}
+
+#login{
+    box-shadow: 2px 2px 10px;
+    border-radius: 1%;
+    position: fixed;
+    top: 7%;
+    left: 700px;
+    float: right;
+    background-color: rgba(100,161,187,0.75);
+    width: 40%;
+    height: 85%;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 15%;
+  left: 0.75%;
+  z-index: 5;
+  background-color: #235469;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 65px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  box-shadow: 2px 2px 10px;
+}
+
+#results{
+  position: absolute;
+  top: 34%;
+  left: 0.75%;
+  z-index: 4;
+  background-color: #7ECCED;
+  padding-left: 213px;
+  padding-right: 213px;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;    
+}
