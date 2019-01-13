@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import '../styles/App.css';
 import Fab from '@material-ui/core/Fab';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
@@ -15,7 +14,6 @@ class Main extends Component {
     return (
       <div className="mainContainer">
         <div className="headlineOverlay">
-          <Header/>
             <div className="headlineContainer">
               <Grid container direction="column" justify="center" alignItems="center">
                 <Grid item>
