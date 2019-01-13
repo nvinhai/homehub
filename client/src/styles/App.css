@@ -1,115 +1,11 @@
-body{
-  height: 100vh;
-}
 /*
   Main Page Styles
 */
-.mainContainer{
-  background-image: url("../assets/tyler-callahan-662157-unsplash.jpg");
+#WelcomePage {
+  background-image: url("../assets/homepagebg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   overflow: none;
   display: flex;
-}
-.headlineOverlay{
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: none;
-}
-.headlineContainer{
-  text-align: center;
-  height: 50vh;
-  width: 75vw;
-  margin: auto;
-  overflow: none;
-  display: flex;
-}
-.headline{
-  color: white;
-}
-.getStarted{
-  color: white !important;
-}
-
-/*
-  Header styles
-*/
-
-.header{
-  background-color: #2196f3;
-  height: auto;
-  width: auto;
-}
-.button:hover{
-  color: white !important;
-}
-
-.headerLayout{
-  float: right;
-  margin-top: 2px;
-}
-.headerField{
-  height: 50%;
-}
-.headerTitle{
-  font-size: 25px;
-  color: white;
-}
-.headerTitle:hover{
-  color: white;
-}
-
-/* Sign In*/
-.signInContainer{
-  background-color: #F1F1F1;
-  height: 100vh;
-}
-.signInCard{
-  margin: 0 auto;
-  padding-top: 40px;
-  text-align: center;
-  width: 500px;
-}
-
-.signInSpacing{
-  margin-top: 30px;
-}
-.signInLinks{
-  width: 100%;
-}
-/* Sign Up*/
-.signUpContainer{
-  background-color: #F1F1F1;
-  height: 100vh;
-}
-.signUpCard{
-  margin: 0 auto;
-  padding-top: 40px;
-  text-align: center;
-  width: 500px;
-}
-
-.signUpSpacing{
-  margin-top: 30px;
-}
-
-.signInField{
-  border-radius: 25;
-  background-color: white;
-}
-
-.forgotPw{
-  color: white;
-}
-a{
-  color: inherit;
-  text-decoration: none;
-}
-a:hover{
-  color: #2196f3;
-}
-
-input:-webkit-autofill {
--webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
 }
