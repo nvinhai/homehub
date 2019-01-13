@@ -1,8 +1,8 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import Main from '../components/Main';
-import Nomatch from '../components/404nomatch'; //404 page not foune
+import Main from '../components/Main'; //main page
+import Nomatch from '../components/404'; //404 page not foune
 
 
 
