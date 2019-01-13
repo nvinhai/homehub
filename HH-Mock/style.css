@@ -2,29 +2,23 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-input[type=text]{
-    width: 400px;
-    height: 35px;
-    border-radius: 3%;
-    border: 0;
-    padding: 0;
-}
-
-input[type=password]{
-    width: 400px;
-    height: 35px;
-    border-radius: 3%;
-    border: 0;
-    padding: 0;
-}
 a {
   color:inherit;
   text-decoration: none;
  }
- 
+
+
+.blue{
+  color: blue;
+}
+
+.small-icon{
+  width: 15px;
+}
+
 .background{
     position: fixed;
-    background-image: url("assets/homepage.jpg");
+    background-image: url("assets/student living.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 40%;
@@ -40,6 +34,38 @@ a {
     padding: 4%;
     border-radius: 5%;
     text-decoration: none;
+}
+
+#floating-panel input[type=text]{
+    height:25px;
+}
+
+#login input[type=text]{
+    width: 400px;
+    height: 35px;
+    border-radius: 3%;
+    border: 0;
+    padding: 0;
+}
+
+#login input[type=password]{
+    width: 400px;
+    height: 35px;
+    border-radius: 3%;
+    border: 0;
+    padding: 0;
+}
+
+#message-button{
+    top: 5px;
+    margin: auto;
+    position:relative;
+    background-color: #235469;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px;
 }
 
 #buttons{
@@ -74,6 +100,7 @@ a {
     position: relative;
     top: 130px;
     color: white;
+    z-index: 2;
 }
 
 #inputForm{
@@ -102,3 +129,65 @@ a {
     height: 85%;
 }
 
+#floating-panel {
+  position: absolute;
+  top: 15%;
+  left: 0.75%;
+  z-index: 5;
+  background-color: #235469;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 65px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  box-shadow: 2px 2px 10px;
+}
+
+#search-criteria{
+    color:white;
+    font-size: 14px;
+    top: 22%;
+    left: 1.6%;
+    position: absolute;
+    z-index: 6;
+}
+
+#spacious-condo{
+
+    float: left;
+    width:134px;
+    z-index:7;
+}
+
+#results{
+  position: absolute;
+  top: 33%;
+  left: 0.75%;
+  z-index: 4;
+  background-color: #7ECCED;
+  padding-left: 213px;
+  padding-right: 213px;
+  padding-top: 180px;
+  padding-bottom: 220px;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;    
+}
+
+#result1{
+    background-color: white;
+    padding-bottom: 20px  ;
+    width: 400px;
+    left: 11px;
+    top: 25px;
+    box-shadow: 2px 2px 4px;
+    position: absolute;
+    right: 30px;
+    font-size: 13px;
+}
+
+#result1 h1{
+    font-size: 20px;
+}
