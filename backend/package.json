@@ -1,15 +1,25 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "organizes the backend",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Vincent",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^3.1.10",
-    "mongoose": "^5.4.3"
+    "mongoose": "^5.4.3",
+    "express": "^4.16.4",
+    "cookie-parser": "^1.4.3",
+    "morgan": "^1.9.1",
+    "http-errors": "^1.7.1",
+    "pug": "^2.0.3",
+    "debug": "^4.1.1",
+    "monk": "^6.0.6",
+    "jade": "^1.11.0"
   }
 }
